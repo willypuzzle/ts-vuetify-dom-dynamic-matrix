@@ -20,7 +20,7 @@
     "vuetify"
   ],
   "license": "ISC",
-  "main": "LaravelPermission.vue",
+  "main": "DynamicMatrix.vue",
   "maintainers": [
     {
       "name": "willypuzzle",
