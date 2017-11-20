@@ -1,0 +1,40 @@
+{
+  "author": {
+    "name": "Domenico Rizzo",
+    "email": "domenico.rizzo@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/willypuzzle/ts-vuetify-dom-dynamic-matrix/issues"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "vuetify": "^0.16.8",
+    "lodash": "^4.17.4"
+  },
+  "description": "Typescript-vuetify dynamic matrix",
+  "devDependencies": {},
+  "directories": {},
+  "homepage": "https://github.com/willypuzzle/ts-vuetify-dom-dynamic-matrix",
+  "keywords": [
+    "laravel-permission",
+    "vuetify"
+  ],
+  "license": "ISC",
+  "main": "LaravelPermission.vue",
+  "maintainers": [
+    {
+      "name": "willypuzzle",
+      "email": "domenico.rizzo@gmail.com"
+    }
+  ],
+  "name": "ts-vuetify-dom-dynamic-matrix",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willypuzzle/ts-vuetify-dom-dynamic-matrix.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1"
+}
