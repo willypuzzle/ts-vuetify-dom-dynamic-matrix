@@ -72,6 +72,7 @@
         columns: Column[];
         defaultType: string;
         headers: Array<Header>;
+        locale: string;
         manageBooleanChange(el : Element, value : boolean, column : string, row: string);
         matrix: any;
         rows: Row[];
@@ -113,6 +114,9 @@
                 type: String,
                 default: 'boolean'
             },
+            locale: {
+                type: String
+            },
             rows: {
                 type: Array,
                 required: true
@@ -148,7 +152,7 @@
                     initMatrix[realIndex1] = initMatrixInside;
                 };
                 this.matrix = initMatrix;
-                this.axiosChoosen.get(`${this.urlPrefix}/init`).then((response) => {
+                this.axiosChoosen.get(`${this.urlPrefix}/init`, {params:{locale: this.locale}}).then((response) => {
                     let matrix = response.data;
                     _.each(matrix, (el1) => {
                         _.each(el1, (el2) => {
